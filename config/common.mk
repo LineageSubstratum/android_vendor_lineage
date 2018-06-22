@@ -330,6 +330,9 @@ else
     endif
 endif
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lineageoms.version=$(LINEAGE_VERSION)
+
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     vendor/lineage/build/target/product/security/lineage
 
